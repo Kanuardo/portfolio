@@ -1,5 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
 
+.icon {
+  display: block;
+}
+
+.icon.i-arrow {
+  width: 24px;
+  height: 24px;
+  background-image: url("/public/icons/arrow.svg");
+}
+
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors

@@ -15,11 +15,11 @@ class CreaePlaylistsTable extends Migration
     {
         Schema::create('playlists', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('artist');
-            $table->string('track');
-            $table->string('genre');
-            $table->year('year');
-            $table->float('duration');
+            $table->string('artist')->nullable();;
+            $table->string('track')->nullable();;
+            $table->string('genre')->nullable();;
+            $table->year('year')->nullable();;
+            $table->float('duration')->nullable();;
             $table->timestamps();
         });
     }

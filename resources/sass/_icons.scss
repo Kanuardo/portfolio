@@ -1,0 +1,8 @@
+.icon {
+    display: block;
+    &.i-arrow {
+        width: 24px;
+        height: 24px;
+        background-image: url("/public/icons/arrow.svg");
+    }
+}
